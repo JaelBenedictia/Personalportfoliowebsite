@@ -75,7 +75,7 @@ section {
     list-style: none;
     padding-left: 0; /* Added padding to align the bullets properly */
     margin-top: 10px;
-    text-align: left; /* Ensures the bullets are left-aligned */
+    text-align: centre; /* Ensures the bullets are left-aligned */
 }
 
 .project ul li {
