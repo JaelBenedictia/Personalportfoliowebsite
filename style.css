@@ -72,8 +72,8 @@ section {
 
 /* Key Features Bullets Styling */
 .project ul {
-    list-style: disc;
-    padding-left: 30px; /* Added padding to align the bullets properly */
+    list-style: none;
+    padding-left: 0; /* Added padding to align the bullets properly */
     margin-top: 10px;
     text-align: left; /* Ensures the bullets are left-aligned */
 }
