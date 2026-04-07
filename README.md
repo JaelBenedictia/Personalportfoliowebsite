@@ -54,7 +54,7 @@ Handled imbalanced data using SMOTE
 ##Live Portfolio
 
 ###Visit here:
-https://jaelbenedictia.github.io/Personalportfoliowebsite/⁠�
+https://jaelbenedictia.github.io/Personalportfoliowebsite/⁠
 
 ##Resume
 
