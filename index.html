@@ -1,86 +1,191 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html><html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jael Benedictia J - Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jael Benedictia - Portfolio</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }body {
+  background: #0f172a;
+  color: #e2e8f0;
+  line-height: 1.6;
+}
+
+header {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #020617;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+header h1 {
+  font-size: 20px;
+  color: #38bdf8;
+}
+
+nav a {
+  color: #e2e8f0;
+  margin-left: 15px;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+nav a:hover {
+  color: #38bdf8;
+}
+
+section {
+  padding: 60px 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.hero {
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.hero h2 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  color: #94a3b8;
+  margin-bottom: 20px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #38bdf8;
+  color: #020617;
+  text-decoration: none;
+  margin: 5px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.btn:hover {
+  background: #0ea5e9;
+}
+
+h3 {
+  margin-bottom: 20px;
+  color: #38bdf8;
+}
+
+.skills, .projects {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: #020617;
+  padding: 20px;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.project-title {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.contact {
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #020617;
+  font-size: 14px;
+  color: #94a3b8;
+}
+
+.links a {
+  color: #38bdf8;
+  text-decoration: none;
+}
+
+  </style>
 </head>
-<body>
-    <header>
-        <h1>Jael Benedictia J</h1>
-        <nav>
-            <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#education">Education</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-    <section id="about">
-        <h2>About Me</h2>
-        <p>Grounded and solution-oriented engineering student with significant experience in problem-solving and hands-on projects. Motivated to expand my knowledge, contribute expertise, and grow in a professional environment.</p>
-    </section>
-    <section id="education">
-        <h2>Education</h2>
-        <p><strong>Bachelor of Engineering</strong> in Electronics and Communication Engineering</p>
-        <p>University College of Engineering Tindivanam (2021–2025)</p>
-        <p>Current CGPA: 7.50/10</p>
-        <p><strong>Senior Secondary (12th)</strong> - Zion Matriculation School, 89%</p>
-        <p><strong>High School (10th)</strong> - Zion Matriculation School, 83%</p>
-    </section>
-    <section id="projects">  
-        <h2>Projects</h2>
-        <div class="project">
-    <h3>Adversarial Detection in IDS System using Advanced Machine Learning</h3>
-    <p>This project focuses on enhancing the Intrusion Detection System (IDS) by detecting adversarial attacks using advanced machine learning techniques, such as Convolutional Neural Networks (CNN), Recurrent Neural Networks (RNN), and Generative Adversarial Networks (GAN). The project also explores the application of SMOTE for handling class imbalance in the NSL-KDD dataset.</p>
-    <p><strong>Key Features:</strong></p>
-    <ul>
-        <li>• Data Preprocessing and Augmentation using SMOTE</li>
-        <li>• Model training with CNN, RNN, and GAN</li>
-        <li>• Evaluation of model performance against adversarial attacks (FGSM and GAN)</li>
-        <li>• Comparison of model robustness and accuracy</li>
-    </ul>
-    <p><strong>Technologies Used:</strong> Python, TensorFlow, Keras, Scikit-learn, NSL-KDD Dataset</p>
-    <p>For more details, visit the GitHub repository or contact for collaboration.</p>
+<body><header>
+  <h1>Jael Benedictia</h1>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header><section class="hero">
+  <h2>Software Testing & Automation Engineer</h2>
+  <p>ECE Graduate | Selenium | Java | TestNG | Manual Testing</p>
+  <a href="#projects" class="btn">View Projects</a>
+  <a href="https://drive.google.com" class="btn" target="_blank">Download Resume</a>
+</section><section id="about">
+  <h3>About Me</h3>
+  <p>
+    I am an Electronics and Communication Engineering graduate with hands-on experience in manual and automation testing.
+    I specialize in Selenium WebDriver, Java, and TestNG, and have built automation frameworks using the Page Object Model.
+    I am seeking an entry-level Software Testing role to apply my skills in real-world QA environments.
+  </p>
+</section><section id="skills">
+  <h3>Skills</h3>
+  <div class="skills">
+    <div class="card">Manual Testing</div>
+    <div class="card">Selenium WebDriver</div>
+    <div class="card">TestNG</div>
+    <div class="card">Core Java</div>
+    <div class="card">SQL</div>
+    <div class="card">GitHub</div>
+    <div class="card">SDLC / STLC</div>
+    <div class="card">Page Object Model</div>
+  </div>
+</section><section id="projects">
+  <h3>Projects</h3>
+  <div class="projects"><div class="card">
+  <div class="project-title">E-commerce Automation Framework</div>
+  <p>Built using Selenium, Java, TestNG, and Maven. Implemented POM and automated login & add-to-cart scenarios.</p>
 </div>
-        <div class="project">
-            <h3>Smart Lock System</h3>
-            <p>Enhanced access control using Arduino components.</p>
-        </div>
-        <div class="project">
-            <h3>Distance Measurement in Industrial Automation</h3>
-            <p>Cost-effective proximity detection system.</p>
-        </div>
-        <div class="project">
-            <h3>Navigating Life with Sound</h3>
-            <p>Smart walking stick for visually impaired individuals.</p>
-        </div>
-        <div class="project">
-            <h3>Personal Portfolio Website</h3>
-            <p>Responsive personal portfolio showcasing my skills and projects.</p>
-        </div>
-    </section>
-    <section id="skills">
-    <h2>Skills</h2>
-    <p><strong>Programming Languages:</strong> Java, Python, C, SQL</p>
-    <p><strong>Web Development:</strong> HTML5, CSS3, JavaScript</p>
-    <p><strong>Tools & Technologies:</strong> Git, Arduino IDE, MATLAB, LTspice, MS Office</p>
-    <p><strong>Database:</strong> MySQL</p>
-    <p><strong>Testing & Development:</strong> Selenium, SDLC, Manual Testing, Core Java</p>
-    <p><strong>Areas of Interest:</strong> Cybersecurity, Machine Learning, Embedded Systems</p>
-    <p><strong>Soft Skills:</strong> Adaptability, Communication, Problem-solving</p>
-</section>
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>Email: jaelbenedictia016@gmail.com</p>
-        <p>Phone: +91 7418148548</p>
-        <p>LinkedIn: <a href="https://www.linkedin.com/in/jael-benedictia-j-3051a5230" target="_blank" rel="noopener noreferrer">View Profile</a></p>
-    </section>
-    <footer>
-        <p>© 2025 Jael Benedictia J. All rights reserved.</p>
-    </footer>
-</body>
+
+<div class="card">
+  <div class="project-title">Banking Automation Suite</div>
+  <p>Automated login test cases using Selenium and TestNG with screenshot capture on failure.</p>
+</div>
+
+<div class="card">
+  <div class="project-title">IDS using Machine Learning</div>
+  <p>Developed using Random Forest, CNN, GAN with SMOTE for imbalance handling.</p>
+</div>
+
+<div class="card">
+  <div class="project-title">Portfolio Website</div>
+  <p>Designed and deployed this personal portfolio using GitHub Pages.</p>
+</div>
+
+  </div>
+</section><section id="contact" class="contact">
+  <h3>Contact Me</h3>
+  <p>Email: <a href="mailto:jaelbenedictia016@gmail.com" class="links">jaelbenedictia016@gmail.com</a></p>
+  <p>Phone: <a href="tel:+917418148548" class="links">+91 7418148548</a></p>
+  <p>LinkedIn: <a href="https://www.linkedin.com/in/jael-benedictia-j-3051a5230" target="_blank">View Profile</a></p>
+  <p>GitHub: <a href="https://github.com/JaelBenedictia" target="_blank">View Repositories</a></p>
+</section><footer>
+  <p>© 2026 Jael Benedictia | Portfolio</p>
+</footer></body>
 </html>
