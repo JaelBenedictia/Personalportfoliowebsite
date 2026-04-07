@@ -58,7 +58,9 @@ https://drive.google.com/file/d/1-Yoh0TmIO7yIVtW_7WJVRHp2ylTD0QQV/view?usp=drive
 ##Contact
 
 ###Email: jaelbenedictia016@gmail.com
+
 ###LinkedIn: https://www.linkedin.com/in/jael-benedictia-j-3051a5230⁠�
+
 ###GitHub: https://github.com/JaelBenedictia⁠�
 
 ##Note
