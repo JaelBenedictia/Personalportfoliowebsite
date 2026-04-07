@@ -3,7 +3,9 @@
 A personal portfolio website designed and developed to showcase my skills, projects, and experience in Software Testing and Automation.
 
 ##About Me
+
 I am Jael Benedictia J, an Electronics and Communication Engineering graduate with hands-on experience in:
+
 •Manual Testing
 •Selenium Automation Testing
 •Java & TestNG
@@ -13,10 +15,12 @@ I am Jael Benedictia J, an Electronics and Communication Engineering graduate wi
 I am passionate about building efficient test automation frameworks and improving software quality.
 
 ##Features
+
 •Clean and modern UI design
 •Fully responsive layout
 
 ##Dedicated sections for:
+
 •About Me
 •Skills
 •Projects
@@ -25,6 +29,7 @@ I am passionate about building efficient test automation frameworks and improvin
 •GitHub and LinkedIn integration
 
 ##Technologies Used
+
 •HTML5
 •CSS3
 •GitHub Pages (for deployment)
