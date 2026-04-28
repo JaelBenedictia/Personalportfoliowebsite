@@ -66,5 +66,5 @@ Contact
 
 💻 GitHub: https://github.com/JaelBenedictia⁠�
 
-Note
+Note:
 This portfolio is continuously updated as I learn new technologies and build more projects.
