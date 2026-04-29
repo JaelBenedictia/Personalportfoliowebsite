@@ -129,3 +129,35 @@ footer {
   color: #64748b;
   font-size: 14px;
 }
+/* Resume Section Enhancement */
+.card ul li {
+  margin-bottom: 8px;
+}
+
+/* Better button alignment */
+.card .btn {
+  display: inline-block;
+  margin-top: 10px;
+}
+
+/* Subtle hover effect for cards */
+.card:hover {
+  transform: translateY(-3px);
+  transition: 0.3s ease;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+}
+
+/* Improve spacing between sections */
+section {
+  margin-bottom: 20px;
+}
+
+/* Slightly better text readability */
+.card p {
+  line-height: 1.6;
+}
+
+/* Optional: highlight Resume section slightly */
+section h2 {
+  font-weight: 600;
+}
