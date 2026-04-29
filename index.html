@@ -1,119 +1,169 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Jael Benedictia - Portfolio</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8">
+  <title>Jael Benedictia | QA Engineer</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #0f172a;
+      color: #f1f5f9;
+    }
+
+    header {
+      text-align: center;
+      padding: 60px 20px;
+    }
+
+    h1 {
+      font-size: 40px;
+    }
+
+    .btn {
+      padding: 10px 20px;
+      margin: 10px;
+      background: #38bdf8;
+      border: none;
+      color: black;
+      cursor: pointer;
+      text-decoration: none;
+      border-radius: 6px;
+    }
+
+    section {
+      padding: 40px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    h2 {
+      border-bottom: 2px solid #38bdf8;
+      padding-bottom: 5px;
+    }
+
+    .card {
+      background: #1e293b;
+      padding: 20px;
+      margin: 20px 0;
+      border-radius: 10px;
+    }
+
+    .skills span {
+      display: inline-block;
+      background: #38bdf8;
+      color: black;
+      padding: 6px 10px;
+      margin: 5px;
+      border-radius: 6px;
+      font-size: 14px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #020617;
+    }
+  </style>
 </head>
 
 <body>
 
 <header>
-  <h1>Jael Benedictia</h1>
-  <nav>
-    <a href="#about">About</a>
-    <a href="#skills">Skills</a>
-    <a href="#projects">Projects</a>
-    <a href="#contact">Contact</a>
-  </nav>
+  <h1>Hi, I'm Jael 👩‍💻</h1>
+  <p>QA Engineer | Selenium | API Automation</p>
+  <p>I build scalable automation frameworks and ensure software quality.</p>
+
+  <a href="https://github.com/JaelBenedictia" class="btn">GitHub</a>
+  <a href="https://www.linkedin.com/in/jael-benedictia-j-3051a5230" class="btn">LinkedIn</a>
 </header>
 
-<section class="hero">
-  <h2>Software Testing & Automation Engineer</h2>
-  <p>ECE Graduate | Selenium | Java | TestNG | Manual Testing</p>
-
-  <a href="#projects" class="btn">View Projects</a>
-
-  <!-- Updated Resume Link -->
-  <a href="https://drive.google.com/file/d/1-Yoh0TmIO7yIVtW_7WJVRHp2ylTD0QQV/view?usp=drivesdk"
-     target="_blank" class="btn">
-     Download Resume
-  </a>
-</section>
-
-<section id="about">
-  <h3>About Me</h3>
-  <p>
-    I am an Electronics and Communication Engineering graduate with hands-on experience in manual and automation testing.
-    I specialize in Selenium WebDriver, Java, and TestNG, and have built automation frameworks using the Page Object Model.
-    I am seeking an entry-level Software Testing role to apply my skills in real-world QA environments.
-  </p>
-</section>
-
-<section id="skills">
-  <h3>Skills</h3>
+<section>
+  <h2>Skills</h2>
   <div class="skills">
-    <div class="card">Manual Testing</div>
-    <div class="card">Selenium WebDriver</div>
-    <div class="card">TestNG</div>
-    <div class="card">Core Java</div>
-    <div class="card">SQL</div>
-    <div class="card">GitHub</div>
-    <div class="card">SDLC / STLC</div>
-    <div class="card">Page Object Model</div>
+    <span>Selenium</span>
+    <span>TestNG</span>
+    <span>POM</span>
+    <span>Python</span>
+    <span>Pytest</span>
+    <span>API Testing</span>
+    <span>SQL</span>
+    <span>Java</span>
+    <span>SDLC</span>
+    <span>STLC</span>
   </div>
 </section>
 
-<section id="projects">
-  <h3>Projects</h3>
-  <div class="projects">
+<section>
+  <h2>Projects</h2>
 
-    <div class="card">
-      <div class="project-title">E-commerce Automation Framework</div>
-      <p>
-        Built using Selenium, Java, TestNG, and Maven. Implemented Page Object Model (POM) and automated login and add-to-cart scenarios.
-      </p>
-    </div>
+  <div class="card">
+    <h3>API Automation Framework</h3>
+    <p><b>Tech:</b> Python, Pytest, Requests</p>
 
-    <div class="card">
-      <div class="project-title">Banking Automation Suite</div>
-      <p>
-        Automated login test cases using Selenium and TestNG with screenshot capture on failure.
-      </p>
-    </div>
+    <p><b>What I built:</b></p>
+    <ul>
+      <li>Automated REST APIs (GET, POST, PUT, DELETE)</li>
+      <li>Validated JSON responses and status codes</li>
+      <li>Reusable API client design</li>
+      <li>HTML reporting using pytest-html</li>
+    </ul>
 
-    <div class="card">
-      <div class="project-title">IDS using Machine Learning</div>
-      <p>
-        Developed using Random Forest, CNN, GAN with SMOTE for handling data imbalance and improving model robustness.
-      </p>
-    </div>
+    <a href="https://github.com/JaelBenedictia" class="btn">View Code</a>
+  </div>
 
-    <div class="card">
-      <div class="project-title">Portfolio Website</div>
-      <p>
-        Designed and deployed this personal portfolio using GitHub Pages.
-      </p>
-    </div>
+  <div class="card">
+    <h3>Selenium Automation Framework</h3>
+    <p><b>Tech:</b> Java, Selenium, TestNG</p>
 
+    <p><b>What I built:</b></p>
+    <ul>
+      <li>Page Object Model framework</li>
+      <li>Login & cart automation</li>
+      <li>Assertions + failure screenshots</li>
+      <li>Reusable test components</li>
+    </ul>
+
+    <a href="https://github.com/JaelBenedictia" class="btn">View Code</a>
+  </div>
+
+  <div class="card">
+    <h3>Banking App Testing</h3>
+    <p><b>Tech:</b> Java, Selenium</p>
+
+    <ul>
+      <li>Manual test case design</li>
+      <li>Automated login scenarios</li>
+      <li>Structured validation</li>
+    </ul>
+  </div>
+
+</section>
+
+<section>
+  <h2>How I Test Applications</h2>
+
+  <div class="card">
+    <ul>
+      <li>Design test cases based on requirements</li>
+      <li>Execute manual + automation tests</li>
+      <li>Validate APIs using Postman & Pytest</li>
+      <li>Track defects using Jira</li>
+      <li>Ensure regression stability</li>
+    </ul>
   </div>
 </section>
 
-<section id="contact" class="contact">
-  <h3>Contact Me</h3>
-
-  <p>Email: 
-    <a href="mailto:jaelbenedictia016@gmail.com">
-      jaelbenedictia016@gmail.com
-    </a>
-  </p>
-
-  <p>LinkedIn: 
-    <a href="https://www.linkedin.com/in/jael-benedictia-j-3051a5230" target="_blank">
-      View Profile
-    </a>
-  </p>
-
-  <p>GitHub: 
-    <a href="https://github.com/JaelBenedictia" target="_blank">
-      View Repositories
-    </a>
-  </p>
+<section>
+  <h2>Contact</h2>
+  <p>Email: jaelbenedictia016@gmail.com</p>
+  <p>Location: Chennai</p>
 </section>
 
 <footer>
-  <p>© 2026 Jael Benedictia | Portfolio</p>
+  <p>© 2026 Jael Benedictia</p>
 </footer>
 
 </body>
