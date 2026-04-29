@@ -30,6 +30,12 @@ header p {
   color: #94a3b8;
 }
 
+.highlight {
+  color: #38bdf8;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
 /* Buttons */
 .btn {
   display: inline-block;
@@ -55,6 +61,7 @@ section {
   padding: 50px 20px;
 }
 
+/* Headings */
 h2 {
   font-size: 26px;
   margin-bottom: 20px;
@@ -83,7 +90,7 @@ h2 {
   color: #020617;
 }
 
-/* Cards (Projects) */
+/* Cards */
 .card {
   background: rgba(30, 41, 59, 0.7);
   backdrop-filter: blur(10px);
@@ -97,6 +104,7 @@ h2 {
 .card:hover {
   transform: translateY(-5px);
   border-color: #38bdf8;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.3);
 }
 
 /* Lists */
@@ -106,19 +114,20 @@ ul {
 }
 
 li {
-  margin-bottom: 6px;
+  margin-bottom: 8px;
 }
 
-/* Images (for reports/screenshots) */
+/* Buttons inside cards */
+.card .btn {
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+/* Images */
 img {
   margin-top: 15px;
   border-radius: 8px;
   width: 100%;
-}
-
-/* Contact */
-section p {
-  margin: 8px 0;
 }
 
 /* Footer */
@@ -128,36 +137,4 @@ footer {
   background: #020617;
   color: #64748b;
   font-size: 14px;
-}
-/* Resume Section Enhancement */
-.card ul li {
-  margin-bottom: 8px;
-}
-
-/* Better button alignment */
-.card .btn {
-  display: inline-block;
-  margin-top: 10px;
-}
-
-/* Subtle hover effect for cards */
-.card:hover {
-  transform: translateY(-3px);
-  transition: 0.3s ease;
-  box-shadow: 0 8px 20px rgba(0,0,0,0.3);
-}
-
-/* Improve spacing between sections */
-section {
-  margin-bottom: 20px;
-}
-
-/* Slightly better text readability */
-.card p {
-  line-height: 1.6;
-}
-
-/* Optional: highlight Resume section slightly */
-section h2 {
-  font-weight: 600;
 }
